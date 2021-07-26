@@ -1,0 +1,140 @@
+#title{
+  background-color: #ff4c68;
+  line-height: 1.5;
+  position: relative;
+  padding-bottom: 0;
+}
+.row-height{
+  height: 20rem;
+}
+.body{
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+  position: relative;
+  padding: 3% 15%;
+  padding-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+#features{
+  text-align:center;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 3.5rem;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3{
+  font-weight: 600;
+}
+.download-btn{
+  margin: 5% 3% 5% 0%;
+}
+.subtext{
+  color: #8f8f8f;
+  padding:3% 15% 0;
+}
+.ft-icon{
+  color: #ef8172;
+  padding-bottom: 6%;
+}
+.ft-icon:hover{
+  color: #ff4c68;
+}
+/* Navigation bar */
+.navbar-brand{
+  font-family:'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+/* Title Image */
+.title-img{
+  text-align: center;
+  position: relative;
+  width: 60%;
+  transform: rotate(25deg);
+}
+#testimonials {
+
+  text-align: center;
+  background-color:#ef8172;
+  color:#fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media(max-width:1200px) {
+.row{
+  height:auto;
+}
+
+.title-img{
+  transform:rotate(0);
+  }
+}
+#cta{
+  background-color: #ef8172;
+  text-align: center;
+  color: #ffff;
+  font-size: 150%;
+  padding-top:50px ;
+}
+#footer{
+  background-color: #ef8172;
+  text-align: center;
+  color: #ffff;
+  font-size: 100%;
+  padding-top: 0;
+  padding-bottom: 20px;
+
+}
+.font-icon{
+  width: 50px;
+}
+.font-icon:hover{
+  color: #212121;
+}
